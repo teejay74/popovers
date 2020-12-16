@@ -1,0 +1,57 @@
+body {
+  color: #999;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: calc(50% - 200px);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.button {
+  padding: 6px 12px;
+  border: 1px solid #160288;
+  border-radius: 5px;
+  font-size: 26px;
+  color: #FFFFFF;
+  background-color: #2f00d8;
+  cursor: pointer;
+}
+
+.popover-header {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #4403f7;
+
+}
+
+.popover, .popover-show {
+  position: absolute;
+  box-sizing: border-box;
+  display: block;
+  max-width: 300px;
+  border: 1px solid black;
+  font-size: 14px;
+  text-align: left;
+  color: #212529;
+  background-color: #ffffff;
+}
+
+.popover-hide {
+  display: none;
+}
+
+.popover-header, .popover-body {
+  padding: 10px 15px;
+}
+
